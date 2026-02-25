@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+/* Design Tokens */
+:root {
+  --color-primary: #2563eb;
+  --color-secondary: #0d9488;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-bg: #f8fafc;
+  --color-text: #0f172a;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
